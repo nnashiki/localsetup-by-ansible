@@ -5,7 +5,7 @@ ansibleでhomebrew、homebrewcaskを経由したライブラリ管理ができ�
 - ansibleのinstall
 
 ```
-brew insatll python
+brew install python
 brew install ansible
 ```
 
