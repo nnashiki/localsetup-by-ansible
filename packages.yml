@@ -10,6 +10,7 @@
     homebrew_cask_packages:
       - name: virtualbox
       - name: vagrant
+      - name: docker
 
     homebrew_packages:
       - name: tree
@@ -17,6 +18,7 @@
       - name: sqlite
       - name: jq
       - name: composer
+      - name: docker
 
   tasks:
     - name: homebrew update
