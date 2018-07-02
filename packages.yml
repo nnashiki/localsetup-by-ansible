@@ -2,34 +2,22 @@
   connection: local
 
   vars:
-    homebrew_taps:
-      - caskroom/cask
-      - caskroom/versions
-      - homebrew/boneyard
 
     homebrew_cask_packages:
-      - name: virtualbox
-      - name: vagrant
       - name: docker
+      - name: sourcetree
+      - name: iterm2
 
     homebrew_packages:
       - name: tree
       - name: nkf
       - name: sqlite
       - name: jq
-      - name: composer
-      - name: docker
 
   tasks:
     - name: homebrew update
       homebrew:
         update_homebrew: yes
-
-    - name: homebrew tap
-      homebrew_tap:
-        name: '{{ item }}'
-        state: present
-      with_items: '{{ homebrew_taps }}'
 
     - name: homebrew cask packages install
       homebrew_cask: name={{ item.name }} state=installed
