@@ -7,12 +7,25 @@
       - name: docker
       - name: sourcetree
       - name: iterm2
+      - name: slack
+      - name: google-japanese-ime
+      - name: firefox
+      - name: sublime-text
 
     homebrew_packages:
       - name: tree
       - name: nkf
       - name: sqlite
       - name: jq
+      - name: gdrive
+      # - name: mysql --client-only
+      - name: tmux
+      - name: reattach-to-user-namespace
+      - name: awscli
+      - name: vim
+      - name: tig
+      - name: ghq
+
 
   tasks:
     - name: homebrew update
