@@ -11,6 +11,7 @@
       - name: google-japanese-ime
       - name: firefox
       - name: sublime-text
+      - name: visual-studio-code
 
     homebrew_packages:
       - name: tree
@@ -25,6 +26,8 @@
       - name: tig
       - name: ghq
       - name: peco
+      - name: packer
+
 
     pip_packages:
       - name: sqlparse
