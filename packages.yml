@@ -27,6 +27,7 @@
       - name: ghq
       - name: peco
       - name: packer
+      - name: circleci
 
 
     pip_packages:
