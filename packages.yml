@@ -31,9 +31,11 @@
       - name: sqlparse
 
   tasks:
-    - name: homebrew update
+    - name: homebrew update/upgrade
+      # brew updateはHomebrewのアップデートのみ行うのに対して、brew upgradeではHomebrewのアップデートに加えてHomebrewでインストールしたパッケージのアップデートも行う
       homebrew:
         update_homebrew: yes
+        upgrade_all: yes
 
     - name: homebrew cask packages install
       homebrew_cask: name={{ item.name }} state=installed
