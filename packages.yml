@@ -10,25 +10,22 @@
       - name: slack
       - name: google-japanese-ime
       - name: firefox
-      - name: sublime-text
       - name: visual-studio-code
 
     homebrew_packages:
+      - name: git
       - name: tree
       - name: nkf
       - name: sqlite
       - name: jq
       - name: gdrive
-      # - name: mysql --client-only
+      - name: mysql --client-only
       - name: reattach-to-user-namespace
-      - name: awscli
       - name: vim
       - name: tig
       - name: ghq
       - name: peco
       - name: packer
-      - name: circleci
-
 
     pip_packages:
       - name: sqlparse
