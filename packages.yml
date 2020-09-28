@@ -19,7 +19,7 @@
       - name: sqlite
       - name: jq
       - name: gdrive
-      - name: github
+      - name: github/gh/gh
       - name: reattach-to-user-namespace
       - name: vim
       - name: tig
