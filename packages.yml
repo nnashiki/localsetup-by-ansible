@@ -52,8 +52,9 @@
         state: '{{ item.state | default("present") }}'
       with_items: '{{ homebrew_packages }}'
 
-    - name: Pip install some packages
+    - name: Python 3.8 install some packages (not virtualenv)
       pip:
-        name='{{ item.name }}'
+        name: '{{ item.name }}'
+        executable: pip3.8
       with_items: '{{ pip_packages }}'
 
