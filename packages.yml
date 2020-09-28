@@ -19,7 +19,7 @@
       - name: sqlite
       - name: jq
       - name: gdrive
-      - name: mysql --client-only
+      - name: github
       - name: reattach-to-user-namespace
       - name: vim
       - name: tig
