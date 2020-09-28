@@ -6,7 +6,7 @@ ansibleでhomebrew、homebrewcaskを経由したライブラリ管理ができ�
    - https://docs.ansible.com/ansible/2.9_ja//reference_appendices/python_3_support.html
 
 ```
-$ pip3 install ansible
+$ sudo pip3 install ansible
 $ ansible --version | grep "python version"
 ```
 
