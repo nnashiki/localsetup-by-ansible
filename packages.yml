@@ -30,6 +30,9 @@
 
     pip_packages:
       - name: sqlparse
+    
+    node_packages:
+      - name: express
 
   tasks:
     - name: homebrew update/upgrade
@@ -57,4 +60,11 @@
         name: '{{ item.name }}'
         executable: pip3.8
       with_items: '{{ pip_packages }}'
+    
+    - name: Install node.js package globally.
+      # https://docs.ansible.com/ansible/latest/collections/community/general/npm_module.html
+      community.general.npm:
+        name: '{{ item.name }}'
+        global: yes
+      with_items: '{{ node_packages }}'
 
