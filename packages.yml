@@ -22,7 +22,6 @@
       - name: jq
       - name: gdrive
       - name: github/gh/gh
-      - name: reattach-to-user-namespace
       - name: vim
       - name: tig
       - name: ghq
