@@ -52,6 +52,7 @@
       with_items: '{{ homebrew_packages }}'
 
     - name: Python 3.8 install some packages (not virtualenv)
+      # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/pip_module.html
       pip:
         name: '{{ item.name }}'
         executable: pip3.8
