@@ -15,6 +15,8 @@
 
     homebrew_packages:
       - name: zsh
+      - name: zsh-syntax-highlighting
+      - name: zsh-completions
       - name: git
       - name: tree
       - name: nkf
