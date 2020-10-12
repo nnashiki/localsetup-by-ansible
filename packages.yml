@@ -18,6 +18,7 @@
       - name: zsh-syntax-highlighting
       - name: zsh-completions
       - name: git
+      - name: git-lfs
       - name: tree
       - name: nkf
       - name: sqlite
