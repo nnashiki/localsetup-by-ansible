@@ -29,6 +29,7 @@
       - name: ghq
       - name: peco
       - name: packer
+      - name: azure-cli
 
     pip_packages:
       - name: sqlparse
