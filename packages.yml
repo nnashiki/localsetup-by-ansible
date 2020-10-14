@@ -11,6 +11,7 @@
       - name: google-japanese-ime
       - name: firefox
       - name: visual-studio-code
+      - name: intellij-idea
       #- name: dropbox
 
     homebrew_packages:
