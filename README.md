@@ -14,7 +14,9 @@ $ ansible --version | grep "python version"
 
 ```
 ansible-playbook --syntax-check packages.yml -i hosts
-ansible-playbook -i hosts packages.yml
+
+ansible-Aplaybook -i hosts packages.yml
+/Library/Frameworks/Python.framework/Versions/3.8/bin/ansible-playbook -i hosts packages.yml
 ```
 
 # 参考
