@@ -23,6 +23,7 @@
       - name: tree
       - name: nkf
       - name: sqlite
+      - name: wget
       - name: jq
       - name: gdrive
       - name: github/gh/gh
