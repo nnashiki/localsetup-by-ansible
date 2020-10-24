@@ -25,7 +25,6 @@
       - name: sqlite
       - name: wget
       - name: jq
-      - name: gdrive
       - name: github/gh/gh
       - name: vim
       - name: tig
@@ -33,6 +32,8 @@
       - name: peco
       - name: packer
       - name: azure-cli
+      - name: kotlin
+      - name: gradle
 
     pip_packages:
       - name: sqlparse
