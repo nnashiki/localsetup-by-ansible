@@ -34,6 +34,7 @@
       - name: azure-cli
       - name: kotlin
       - name: gradle
+      - name: certbot
 
     pip_packages:
       - name: sqlparse
