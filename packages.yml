@@ -36,6 +36,7 @@
       - name: gradle
       - name: certbot 
       - name: nginx
+      - name: docker-machine
 
     pip_packages:
       - name: sqlparse
