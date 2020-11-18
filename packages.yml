@@ -6,14 +6,15 @@
     homebrew_cask_packages:
       - name: docker
       - name: sourcetree
-      - name: iterm2
-      - name: slack
-      - name: google-japanese-ime
       - name: firefox
       - name: visual-studio-code
       - name: intellij-idea-ce
+      - name: remote-desktop-manager
       - name: pycharm-ce
-      #- name: dropbox
+      # - name: dropbox
+      # - name: iterm2
+      # - name: slack
+      # - name: google-japanese-ime
 
     homebrew_packages:
       - name: zsh
