@@ -9,7 +9,6 @@
       - name: firefox
       - name: visual-studio-code
       - name: intellij-idea-ce
-      - name: remote-desktop-manager
       - name: pycharm-ce
       # - name: dropbox
       # - name: iterm2
