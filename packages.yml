@@ -7,9 +7,9 @@
       - name: docker
       - name: sourcetree
       - name: firefox
-      - name: visual-studio-code
-      - name: intellij-idea-ce
-      - name: pycharm-ce
+      # - name: visual-studio-code
+      # - name: intellij-idea-ce
+      # - name: pycharm-ce
       # - name: dropbox
       # - name: iterm2
       # - name: slack
