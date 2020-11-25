@@ -38,6 +38,7 @@
       - name: certbot 
       - name: nginx
       - name: docker-machine
+      - name: anyenv
 
     pip_packages:
       - name: sqlparse
