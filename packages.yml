@@ -39,6 +39,7 @@
       - name: nginx
       - name: docker-machine
       - name: anyenv
+      - name: openssl
 
     pip_packages:
       - name: sqlparse
