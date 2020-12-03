@@ -43,6 +43,7 @@
 
     pip_packages:
       - name: sqlparse
+      - name: pywinrm
     
     node_packages:
       - name: express
